@@ -35,7 +35,9 @@ client.on('guildMemberAdd', member => {
     });
     client.on('ready', () => {
         console.log('I am ready!');
+        channel.General.send('imm backkkk did you miss me???');
       });
+
 
       client.on('message', message => {
         if (message.content === '!rules') {
