@@ -66,3 +66,5 @@ client.on('guildMemberAdd', member => {
           message.channel.send(embed);
         }
       });
+
+       client.user.setActivity({ game: { name: 'being worked on.... ;)' }, status: 'idle' });
