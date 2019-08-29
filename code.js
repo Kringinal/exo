@@ -28,6 +28,11 @@ client.on('guildMemberAdd', member => {
             message.channel.send(`Oh yesssssss BOIS`);
         }
     });
+  client.on('message', (message) => {
+        if (message.content.toLowerCase() === 'you awake?') {
+            message.channel.send(`yes fucktard... :middle_finger:`);
+        }
+    });
     client.on('message', (message) => {
         if (message.content.toLowerCase() === 'Kringinal') {
             message.channel.send(`KAISER`);
