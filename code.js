@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const token = 'NTQ0OTI2MjM3NTAwNjM3MjA3.XWcjnA.HeEF8_qqb4dCGX3HsC7TvgTDJo4';
+const token = 'NTQ0OTI2MjM3NTAwNjM3MjA3.XWckFA.ObvFLLyF5iB4i1IxLGkLLvf3tjY';
 const client = new Discord.Client();
 const {Client, RichEmbed} = require('discord.js');
 
